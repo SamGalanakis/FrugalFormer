@@ -1,0 +1,27 @@
+lr:
+  desc: Learning rate
+  value: 5.0
+batch_size:
+  desc: Batch size
+  value:
+emsize:
+  desc: Embedding dimension
+  value: 200
+d_hidden:
+  desc: dimension of the feedforward network model in nn.TransformerEncoder
+  value: 200
+nlayers:
+  desc: number of nn.TransformerEncoderLayer in nn.TransformerEncoder
+  value: 2
+nhead:
+  desc: Number of heads in nn.MultiheadAttention
+  value: 2
+dropout:
+  desc: Dropout probability
+  value: 0.2
+bptt:
+  desc: Chunk length
+  value: 35
+epochs:
+  desc: N epochs
+  value : 3
